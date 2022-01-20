@@ -16,7 +16,7 @@
  
  7. Enter test/demo1 testpage
 
-## Solution 2: Use nodes directly
+##Solution 2: Use nodes directly
 1. Download and install node
 2. cmd enters the root directory of the front-end project
 3. npm install
@@ -25,7 +25,7 @@
 6. Set proxy address and proxy backend project port to solve cross-domain problems
 7. Enter test/demo1 testpage
 
-## Scenario 3: Using Tomcat this solution make package with wcs.min.js because frontend project is changed
+##Scenario 3: Using Tomcat this solution make package with wcs.min.js because frontend project is changed
 1. Front-end files are placed in webapp
 2. The getUploadToken interface is provided in java
 
