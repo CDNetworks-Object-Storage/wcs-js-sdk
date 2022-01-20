@@ -1,7 +1,7 @@
 ## Introduction
 1. [Source Code](https://github.com/CDNetworks-Object-Storage/wcs-js-sdk/tree/main/src)
 2. [demo&example](https://github.com/CDNetworks-Object-Storage/wcs-js-sdk/tree/main/test/demo1)
-3. [demo user guide](https://github.com/Wangsu-Cloud-Storage/wcs-js-sdk/tree/master/demo-userguide.md)
+3. [demo user guide](https://github.com/CDNetworks-Object-Storage/wcs-js-sdk/blob/main/demo-user%20guide.md)
 
 ## Prerequisites
 - Cloud Storage is activated.
