@@ -27,7 +27,7 @@
 
 ##Scenario 3: Using Tomcat, This option doesn't make package with wcs.min.js because frontend project is changed
 1. Set configuration at webapp in the Front-end files 
-2. Provide getUploadToken interface in java
+2. Use getUploadToken interface in java
 
 
 ## Scenario 4: Use nginx, This option doesn't make package with wcs.min.js because frontend project is changed
