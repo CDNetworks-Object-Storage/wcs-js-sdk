@@ -25,19 +25,13 @@
 6. Set proxy address and proxy backend project port to solve cross-domain problems
 7. Enter test/demo1 testpage
 
-##Scenario 3: Using Tomcat this solution make package with wcs.min.js because frontend project is changed
-1. Front-end files are placed in webapp
-2. The getUploadToken interface is provided in java
-
-##方案三:使用Tomcat 此方案前端有改动不能打包出wcs.min.js
-1. 前端文件放webapp
-2. java中提供getUploadToken接口
+##Scenario 3: Using Tomcat, This option doesn't make package with wcs.min.js because frontend project is changed
+1. Set configuration at webapp in the Front-end files 
+2. Provide getUploadToken interface in java
 
 
-## Scenario 4: Use nginx this solution don't make package with wcs.min.js because frontend project is changed
+## Scenario 4: Use nginx, This option doesn't make package with wcs.min.js because frontend project is changed
 1. Use alias on the frontend
-2. The backend uses proxy_pass to proxy the getUploadToken interface
+2. Use proxy_pass to proxy the getUploadToken interface on the backend
 
-##方案四:使用nginx 此方案前端有改动不能打包出wcs.min.js
-1. 前端使用alias
-2. 后端使用proxy_pass代理getUploadToken接口
+
